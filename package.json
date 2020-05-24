@@ -1,0 +1,26 @@
+{
+  "name": "onlinepays",
+  "version": "1.0.0",
+  "description": "prueba para epayco online pays",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor server.js"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "mvc",
+    "epayco",
+    "online",
+    "pays"
+  ],
+  "author": "Daniel",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-method-override": "0.0.3",
+    "jade": "^1.11.0",
+    "morgan": "^1.9.1"
+  }
+}
